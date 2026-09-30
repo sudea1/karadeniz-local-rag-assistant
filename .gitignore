@@ -1,0 +1,44 @@
+# =========================
+# Next.js
+# =========================
+node_modules/
+.next/
+out/
+
+# =========================
+# Python
+# =========================
+backend/venv/
+venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# ChromaDB
+# =========================
+backend/chroma_db/
+chroma_db/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.*
+!.env.example
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
